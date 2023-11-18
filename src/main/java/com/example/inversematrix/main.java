@@ -19,10 +19,5 @@ public class main extends Application {
 
     public static void main(String[] args) {
         launch();
-
-        Matrix matrix = new Matrix(matrixData);
-        Controller controller = new Controller();
-
-        double[][] inverse = controller.calculateInverse(matrix);
     }
 }
